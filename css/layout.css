@@ -40,6 +40,7 @@ a:hover {
 a:focus {
     outline:none;
 }
+
 .section-wide { 
 	
 }
@@ -87,13 +88,18 @@ a:focus {
 	position: relative;
 }
 
-.color-green { color: #B5D638;}
-.color-blue { color: #93AED1;}
+.color-green { color: #1fbba6;}
+.color-orange { color: #f15a22;}
+.color-blue { color: #00b2dd;}
 .color-black { color: #463F3F;}
 .color-maroon { color: #892d49;}
+.color-gray {color: #f1f1f1;}
+.color-gray-medium {color: #d1d1d1;}
+.color-gray-dark {color: #717171;}
 
-.background-green { background-color: #B5D638;}
-.background-blue { background-color: #93AED1;}
+.background-green { background-color: #1fbba6;}
+.background-orange { background-color: #f15a22;}
+.background-blue { background-color: #00b2dd;}
 .background-maroon { background-color: #892d49;}
 .background-black { background-color: #1B1F24;}
 .background-gray { background-color: #f1f1f1;}
@@ -101,24 +107,16 @@ a:focus {
 .background-gray-dark { background-color: #717171;}
 
 .overlay-green {
-	height: 412px;
-	background-color: #B5D638;
-	opacity: 0.5;
-	position: absolute;
-	width: 100%;
-}
-
-.overlay-maroon {
-	height: 400px;
-	background-color: #892d49;
+	height: 100%;
+	background-color: #1fbba6;
 	opacity: 0.8;
 	position: absolute;
 	width: 100%;
 }
 
-.overlay-blue {
-	height: 409px;
-	background-color: #93AED1;
+.overlay-orange {
+	height: 100%;
+	background-color: #f15a22;
 	opacity: 0.8;
 	position: absolute;
 	width: 100%;
@@ -129,6 +127,23 @@ a:focus {
 	background-color: #000;
 	opacity: 0.8;
 	position: absolute;
+	width: 100%;
+}
+
+.overlay-white {
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.8;
+	position: absolute;
+	width: 100%;
+}
+
+.overlay-pattern {
+	background-image: url(../images/pattern1.png);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
 	width: 100%;
 }
 
@@ -157,8 +172,8 @@ a:focus {
 	display: block;
 	height: 10px;
 	width: 10px;
-	border-radius: 50%;
-	background-color: #000;
+	/*border-radius: 50%;*/
+	background-color: #f15a22;
 	position: absolute;
 	top: -4px;
 }

@@ -47,7 +47,7 @@
 }
 
 .navbar-header .logo img {
-	height: 55px;
+	height: 41px;
 	width: 157px;
 	float: left;
 	margin: 15px 0 15px 15px;
@@ -58,7 +58,6 @@
 	text-align: center;
 	float: right;
 	border: none;
-	border-bottom: 1px solid red;
 }
 
 .navbar-nav li a {
@@ -82,13 +81,13 @@
 	font-size: 14px;
 	background-color: #fff!important;
 	color: #747474 !important;
-	border-bottom: 3px solid #B5D638;
+	border-bottom: 3px solid #1FBBA6;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: #fff;
     color: #747474 !important;
-	border-bottom: 3px solid #B5D638;
+	border-bottom: 3px solid #1FBBA6;
 }
 
 .navbar-toggle .icon-bar {
@@ -126,7 +125,7 @@
 }
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-	border-color: #B5D638;
+	border-color: #1FBBA6;
 }
 
 .navbar-nav li .dropdown-menu {
@@ -215,7 +214,7 @@
 	line-height: 40px;
 	font-size: 20px;
 	text-align: center;
-	color: #B5D638;
+	color: #1FBBA6;
 	border-radius: 100%;
 	background-color: #fff;
 }
@@ -294,7 +293,7 @@
 }
 
 .team-widget-back {
-  background: #B5D638;
+  background: #1FBBA6;
   padding: 0 10px;
   -webkit-transform: rotateY( 180deg );
 }
@@ -351,15 +350,20 @@
 	display: block;
 }
 
+.why-choose-us-tab {
+	margin-top: 90px;
+}
+
 .why-choose-us-tab .tab-pane img {
 	width: 100%;
-	margin-right: 5px;
+	margin-bottom: 10px;
 	float: left;
 }
 
 .why-choose-us-tab .tab-pane {
-	padding-bottom: 10px;
-	border: 1px solid black;
+	padding: 6px;
+	border: 1px solid #d1d1d1;
+	border-radius: 4px;
 }
 
 
@@ -438,7 +442,7 @@ textarea {
 
 #submit:hover,
 #reset:hover {
-	background-color: #B5D638;
+	background-color: #1FBBA6;
 }
 
 form {

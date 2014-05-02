@@ -13,6 +13,8 @@
 	background-size: cover;
 }
 
+
+
 .slider-1 { background-image: url("../images/slider-1.jpg"); }
 .slider-2 { background-image: url("../images/slider-2.jpg"); }
 .slider-3 { background-image: url("../images/slider-3.jpg"); }
@@ -148,7 +150,7 @@
 	line-height: 100px;
 	z-index: 2;
 	font-size: 35px;
-	color: #B5D638;
+	color: #333;
 	font-weight: 600;
 }
 
@@ -383,14 +385,14 @@
 
 .testimonial-description {
 	margin: 0; 
-	background: #B7EDFF;  
+	background: #d1d1d1;  
 	padding: 10px 50px;     
 	position: relative;     
 	color: #666;     
 	border-radius: 5px;     
 	font-style: italic;     
 	text-shadow: 0 1px 0 #ECFBFF;     
-	background-image: linear-gradient(#CEF3FF, #B7EDFF); 
+	background-image: linear-gradient(#f1f1f1, #d1d1d1); 
 }
 
 .testimonial-description:before, .testimonial-description:after {     
@@ -418,7 +420,7 @@
 	height: 0;     
 	border-left: 15px solid transparent;     
 	border-right: 15px solid transparent;     
-	border-top: 15px solid #B7EDFF;     
+	border-top: 15px solid #d1d1d1;     
 	margin: 0 auto; 
 }
 
@@ -482,7 +484,7 @@
 }
 
 .owl-theme .owl-controls .owl-buttons div {
-	background: none repeat scroll 0 0 #93AED1;
+	background: none repeat scroll 0 0 #00b2dd;
 	border-radius: 4px;
 	color: #FFFFFF;
 	display: inline-block;
@@ -493,7 +495,7 @@
 }
 
 .owl-theme .owl-controls .owl-page span {
-	background: none repeat scroll 0 0 #93AED1;
+	background: none repeat scroll 0 0 #00b2dd;
 	border-radius: 20px;
 	display: block;
 	height: 12px;
@@ -544,7 +546,7 @@
 }
 
 #owl-related-products .owl-controls .owl-buttons div {
-	background-color: #93AED1;
+	background-color: #00b2dd;
 	border-radius: 4px;
 	color: #FFFFFF;
 	display: inline-block;
@@ -555,7 +557,7 @@
 }
 
 #owl-related-products .owl-controls .owl-page span {
-	background-color: #93AED1;
+	background-color: #00b2dd;
 	border-radius: 20px;
 	display: block;
 	height: 12px;
