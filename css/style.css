@@ -373,6 +373,12 @@
 	padding: 40px 0;
 }
 
+/*testimonials*/
+
+#testimonials {
+	position: relative;
+}
+
 
 /* Contact ============================================================*/
 
