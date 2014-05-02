@@ -153,7 +153,7 @@ a:focus {
 
 .border-left { float: left; }
 .border-right { float: right; }
-.border-center { margin: 0 auto; }
+.border-center { margin: 10px auto; }
 
 .border-left span { float: left; }
 .border-right span { float: right; }

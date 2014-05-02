@@ -383,6 +383,10 @@
 	margin: 0 auto;
 }
 
+.slide-testimonial-quote blockquote {
+	border-left: none;
+}
+
 .testimonial-description {
 	margin: 0; 
 	background: #d1d1d1;  
@@ -392,7 +396,6 @@
 	border-radius: 5px;     
 	font-style: italic;     
 	text-shadow: 0 1px 0 #ECFBFF;     
-	background-image: linear-gradient(#f1f1f1, #d1d1d1); 
 }
 
 .testimonial-description:before, .testimonial-description:after {     
@@ -459,10 +462,10 @@
 }
 
 .testimonial-right {
-width: 19px;
-height: 28px;
-display: block;
--webkit-background-size: 19px 28px;
+	width: 19px;
+	height: 28px;
+	display: block;
+	-webkit-background-size: 19px 28px;
 	background-size: 19px 28px;
 	background-image: url(../images/testimonial-arrow-right.png);
 	margin: 0 auto;
