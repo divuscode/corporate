@@ -201,6 +201,10 @@
 
 /*price*/
 
+.price-tables .panel {
+	border: none;
+}
+
 .list-group p {
 	margin-bottom: 0;
 }
