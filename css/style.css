@@ -140,11 +140,6 @@
 * who we are
 */
 
-
-.progress {
-	height: 30px;
-}
-
 .who-we-are-image {
 	width: 100%;
 	height: 250px;
@@ -160,6 +155,20 @@
 	margin-top: 100px;
 }
 
+.progress {
+	height: 30px;
+	text-align: left;
+}
+
+.progress-bar {
+	text-align: left;
+}
+
+.skils-striped-wrap .sr-only {
+	position: relative;
+	left: 5px;
+	line-height: 30px;
+}
 
 
 /*services*/
