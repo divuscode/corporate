@@ -26,7 +26,7 @@
 .btn-everest-gray { background-color: #d1d1d1; }
 .btn-everest-gray { color: #333;}
 .btn-everest-gray:hover { 
-	color: #fff;
+	color: #333;
 	opacity: 0.8;
 }
 .btn-everest-black { background-color: #1B1F24; }

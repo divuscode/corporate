@@ -524,6 +524,15 @@
 	display: block;
 }
 
+.product-title {
+	margin: 10px auto;
+}
+
+.product-title:hover {
+	text-decoration: underline;
+	color: #f15a22;
+}
+
 #owl-related-products .owl-prev {
 	background-image: url(../images/testimonial-arrow-left.png);
 	background-position: 11px 5px;
@@ -546,7 +555,7 @@
 }
 
 #owl-related-products .owl-controls .owl-buttons div {
-	background-color: #00b2dd;
+	background-color: #1fbba6;
 	border-radius: 4px;
 	color: #FFFFFF;
 	display: inline-block;
@@ -557,11 +566,15 @@
 }
 
 #owl-related-products .owl-controls .owl-page span {
-	background-color: #00b2dd;
+	background-color: #1fbba6;
 	border-radius: 20px;
 	display: block;
 	height: 12px;
 	margin: 5px 7px;
 	opacity: 0.5;
 	width: 12px;
+}
+
+#owl-related-products .owl-controls .owl-page.active span {
+	opacity: 1;
 }
