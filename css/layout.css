@@ -88,6 +88,7 @@ a:focus {
 	position: relative;
 }
 
+.color-white { color: #fff;}
 .color-green { color: #1fbba6;}
 .color-orange { color: #f15a22;}
 .color-blue { color: #00b2dd;}
