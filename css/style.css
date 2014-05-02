@@ -201,6 +201,10 @@
 
 /*price*/
 
+.list-group p {
+	margin-bottom: 0;
+}
+
 .price {
 	font-size: 30px;
 }
