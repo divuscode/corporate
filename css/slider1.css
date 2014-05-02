@@ -436,11 +436,38 @@
 
 .carousel-testimonial-control {
 	position: relative;
-	height: 40px;
 	width: 120px;
 	margin: 0 auto;	
 }
 
+.carousel-testimonial-control a {
+	height: 48px;
+	padding: 10px;
+
+}
+
+.testimonial-left {
+	width: 19px;
+	height: 28px;
+	display: block;
+	-webkit-background-size: 19px 28px;
+	background-size: 19px 28px;
+	margin: 0 auto;
+	background-image: url(../images/testimonial-arrow-left.png);
+	line-height: 28px;
+	background-position: center center;
+}
+
+.testimonial-right {
+width: 19px;
+height: 28px;
+display: block;
+-webkit-background-size: 19px 28px;
+	background-size: 19px 28px;
+	background-image: url(../images/testimonial-arrow-right.png);
+	margin: 0 auto;
+	line-height: 28px;
+}
 
 
 
