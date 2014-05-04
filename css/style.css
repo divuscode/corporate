@@ -391,9 +391,15 @@
 
 /*gallery*/
 
+.gallery-row {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
 .gallery-widget-image {
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .gallery-widget-image img {
