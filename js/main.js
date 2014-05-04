@@ -288,3 +288,10 @@ $(window).resize(function(){
       });
 
 })(jQuery);
+
+(function($){
+
+	$(document).on("ready", function(){
+			$(".gallery-widget-links-camera").fancybox();
+		})
+})(jQuery);
