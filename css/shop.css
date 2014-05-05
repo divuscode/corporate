@@ -138,6 +138,10 @@
 	border-radius: 4px 4px 0 0;
 }
 
+.most-wanted-widget .border-bottom-image {
+	margin: 0 auto;
+}
+
 .most-wanted-product-name {
 	width: 240px;
 	border-bottom: 1px solid #ccc;
