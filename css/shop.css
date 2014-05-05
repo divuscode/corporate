@@ -26,7 +26,41 @@
 }
 
 .product-widget-image {
+	position: relative;
+	overflow: hidden;
 	float: left;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.product-widget-image:hover .close-look { top: 60px; }
+
+.close-look {
+	position: absolute;
+	display: block;
+	padding: 10px;
+	color: #fff;
+	background-color: #f15a22;
+	width: 105px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: -60px;
+	opacity: 1;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.close-look:hover {
+	color: #fff;
 }
 
 .product-rate {
