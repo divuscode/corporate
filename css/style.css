@@ -136,6 +136,16 @@
 	text-align: left;
 }
 
+.smaller-header {
+	position: relative;
+	background-image: url("../images/slider-1.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100px;
+	background-repeat: no-repeat;
+	margin-top: 71px;
+}
+
 /*
 * who we are
 */
@@ -595,6 +605,16 @@ address {
 	margin-left: 20px;
 	padding: 5px 10px;
 	color: #fff;
+}
+
+/*single gallery*/
+
+#owl-related-products .item .gallery-widget-links a {
+	display: inline-block;
+}
+
+.single-gallery-description p span {
+	margin: 0 5px;
 }
 
 /* Media Queries ============================================================*/
