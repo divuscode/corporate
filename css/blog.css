@@ -87,3 +87,38 @@
 .share-blog .btn {
 	float: right;
 }
+
+/*single blog post*/
+
+.blog-post-comment-row {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.single-blog-post-image {
+	width: 100%;
+}
+
+.single-blog-post-image img {
+	width: 100%;
+}
+
+.single-blog-info.blog-info-col {
+	margin-top: 10px;
+} 
+
+
+.blog-post-avatar {
+}
+
+.blog-post-avatar img {
+	width: 90px;
+	float: left;
+	margin-right: 10px;
+}
+
+.comment-rate span {
+	margin-right: 10px;
+}
