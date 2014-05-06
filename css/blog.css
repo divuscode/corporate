@@ -122,3 +122,12 @@
 .comment-rate span {
 	margin-right: 10px;
 }
+
+.blog-text-area {
+	width: 100%;
+}
+
+.blog-text-area .form-group,
+.blog-text-area .form-control {
+	width: 100%;
+}
