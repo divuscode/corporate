@@ -2,6 +2,7 @@
 	margin: 20px 0;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #ccc;
+	overflow: hidden;
 }
 
 .blog-info-col {
@@ -51,6 +52,10 @@
 	}
 }
 
+.blog-content-col {
+	width: 80%;
+	float: right;
+}
 
 .blog-post-image {
 	width: 240px;
@@ -61,8 +66,14 @@
 .blog-post-image img {
 	width: 100%;
 }
-
+@media (max-width: 767px) {
+	.blog-content-col {
+		width: 100%;
+		float: none;
+	}
+}
 @media (max-width: 580px) {
+
 	.blog-post-image {
 		float: none;
 	}
