@@ -568,61 +568,33 @@ address {
 	display: inline-block;
 }
 
+/*sidebar*/
 
-
-
-/* Footer ============================================================*/
-
-.footer {
-	background-color: #1b1f24;
-	padding-bottom: 50px;
+.sidebar-nav-menu .panel-body {
+	padding: 0;
 }
 
-.footer-icons {
-	text-align: center;
-	margin-top: 50px;
+.sidebar-nav-menu .panel-default {
+	border: none;
 }
 
-.footer-icons span {
-	margin: 0 15px;
+.side-bar-nav {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
 }
 
-.footer-icons .fa-stack-2x {
-	color: #fdb913;
+.side-bar-nav li {
+	margin: 3px 0;
 }
 
-.footer-icons a {
-	color: #1b1f24;
-}
-
-.footer-copyright {
-	margin-top: 30px;
-}
-
-.footer-copyright-text p {
-	text-align: center;
+.side-bar-nav li a {
+	display: block;
+	background-color: black;
+	border-left: 3px solid #1fbba6;
+	margin-left: 20px;
+	padding: 5px 10px;
 	color: #fff;
-	font-size: 12px;
-}
-
-.footer-copyright-logo {
-	background-image: url(../images/divus-logo.png);
-	background-size: 60px 41px;
-	width: 60px;
-	height: 41px;
-	margin: 0 auto;
-}
-
-.single-post img {
-	width: 60px;
-	border: 5px solid #000;
-	float: left;
-	margin-right: 10px;
-}
-
-.flickr img {
-	width: 60px;
-	margin: 10px;
 }
 
 /* Media Queries ============================================================*/
