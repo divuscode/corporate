@@ -40,7 +40,7 @@
 */
 function collapse(){
 	if ($('.navbar-toggle:visible').length) {
-		$('.navbar a').click(function () { 
+		$('.navbar .scroll-nav').click(function () { 
 			$(".navbar-collapse").collapse("hide");
 		});
 	}

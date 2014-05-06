@@ -79,7 +79,7 @@
 .navbar-nav li a:hover, .navbar-nav li a.linkhover{
 	text-decoration: none;
 	font-size: 14px;
-	background-color: #fff!important;
+	background-color: #fff;
 	color: #747474 !important;
 	border-bottom: 3px solid #1FBBA6;
 }
@@ -134,6 +134,38 @@
 .navbar-nav li .dropdown-menu a {
 	padding: 8px;
 	text-align: left;
+}
+
+@media (max-width: 767px) {
+	.nav-outer .container {
+		padding: 0px!important;
+	}
+
+	.navbar-collapse {
+		margin-top: 10px;
+	}
+
+	.navbar ul {
+		width: 100%!important;
+		float:right!important;
+		margin: 0 auto!important;
+	}
+
+	.navbar ul li {
+		border-bottom: 1px solid #cdcdcd!important;
+	}
+
+	.navbar ul li a {
+		padding: 10px 0!important;
+	}
+
+	.navbar-nav li.dropdown {
+		overflow: hidden;
+	}
+
+	.navbar-nav li .dropdown-menu a {
+		text-align: center;
+	}
 }
 
 .smaller-header {
@@ -652,39 +684,3 @@ address {
 
  }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-
-	.nav-outer .container {
-		padding: 0px!important;
-	}
-
-	.navbar-collapse {
-		margin-top: 10px;
-	}
-
-	.navbar ul {
-		width: 100%!important;
-		float:right!important;
-		margin: 0 auto!important;
-	}
-
-	.navbar ul li {
-		border-bottom: 1px solid #cdcdcd!important;
-	}
-
-	.navbar ul li a {
-		padding: 10px 0!important;
-	}
-
-	.slides li {
-		width: 666px;
-	}
-
-	.contact-info {
-		margin-top: 70px;
-		margin-left: 0;
-	}
-
- }
-     
