@@ -366,15 +366,17 @@
 }
 
 .slider-testimonial-image {
-	width: 100px;
-	height: 100px;
+	width: 75px;
+	height: 75px;
 	border-radius: 100%;
-
 	margin: 10px auto;
 }
 
 .slider-testimonial-image img {
-	width: 100%;
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	display: block;
 	border-radius: 100%;
 }
 
@@ -401,7 +403,7 @@
 .testimonial-description:before, .testimonial-description:after {     
 	content: "\201C";     
 	position: absolute;     
-	font-size: 80px;     
+	font-size: 60px;     
 	line-height: 1;     
 	color: #999;     
 	font-style: normal; 
@@ -472,6 +474,13 @@
 	line-height: 28px;
 }
 
+.carousel-testimonial-control .carousel-control.left {
+	background-image: none;
+}
+
+.carousel-testimonial-control .carousel-control.right {
+	background-image: none;
+}
 
 
 
