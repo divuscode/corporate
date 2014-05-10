@@ -632,8 +632,8 @@ address {
 
 .side-bar-nav li a {
 	display: block;
-	background-color: black;
-	border-left: 3px solid #1fbba6;
+	background-color: #49e9d3;
+	border-left: 5px solid #1fbba6;
 	margin-left: 20px;
 	padding: 5px 10px;
 	color: #fff;
