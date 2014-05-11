@@ -458,7 +458,7 @@
 	-webkit-background-size: 19px 28px;
 	background-size: 19px 28px;
 	margin: 0 auto;
-	background-image: url(../images/testimonial-arrow-left.png);
+	background-image: url(../images/testimonial-arrow-orange-left.png);
 	line-height: 28px;
 	background-position: center center;
 }
@@ -469,7 +469,7 @@
 	display: block;
 	-webkit-background-size: 19px 28px;
 	background-size: 19px 28px;
-	background-image: url(../images/testimonial-arrow-right.png);
+	background-image: url(../images/testimonial-arrow-orange-right.png);
 	margin: 0 auto;
 	line-height: 28px;
 }
