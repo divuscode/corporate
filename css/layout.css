@@ -129,7 +129,8 @@ a:focus {
 }
 
 .border {
-	width: 300px;
+	background-image: url(../images/pattern2.png);
+	width: 50%;
 	height: 3px;
 	margin: 10px auto;
 	position: relative;
@@ -167,7 +168,7 @@ a:focus {
 	margin: 0 auto;
 }
 
-.dot-pattern-left {
+/*.dot-pattern-left {
 	background-image: url(../images/pattern2.png);
 	height: 4px;
 	left: 300px;
@@ -182,7 +183,7 @@ a:focus {
 	left: 0;
 	position: absolute;
 	right: 0;
-}
+}*/
 
 .tab-accordian {
 	margin: 20px 0;
