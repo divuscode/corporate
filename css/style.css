@@ -622,6 +622,31 @@ address {
 	display: inline-block;
 }
 
+/* gmap ============================================================*/
+
+.gmap-outer {
+	background-color: #424755;
+	height: 500px;
+}
+
+#map-canvas {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.gmnoprint span {
+	display: none;
+}
+
+.map-window {
+ width: 400px;
+}
+
+.map-window-info {
+ float: left;
+}
+
 /*sidebar*/
 
 .sidebar-nav-menu .panel-body {
