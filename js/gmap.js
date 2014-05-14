@@ -2,18 +2,18 @@ $(document).ready(function(){
 
 //Gmap
 	
-	function initialize() {
 	var map;
 
 	var marker;
 
-	var LatLng = new google.maps.LatLng(59.32522, 18.07002);
-	var markerPosition = new google.maps.LatLng(59.32512, 18.069992);
-	var MY_MAPTYPE_ID = 'custom_style';
+	var LatLng = new google.maps.LatLng(32.8225886, -117.1862209);
+	var markerPosition = new google.maps.LatLng(32.8225886, -117.1862209);
 
-	
+var MY_MAPTYPE_ID = 'custom_style';
 
-		var featureOpts = [
+function initialize() {
+
+  var featureOpts = [
 		{
 		featureType: 'water',
 		elementType: 'all',
@@ -62,44 +62,33 @@ $(document).ready(function(){
 	}
 		];
 
-		var mapOptions = {
-			zoom: 12,
-			center: LatLng,
-			scrollwheel: false,     
+  var mapOptions = {
+    zoom: 16,
+	center: LatLng,
+	scrollwheel: false, 
 
-			mapTypeControlOptions: {
-				mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-			},
-			mapTypeId: MY_MAPTYPE_ID
-		};
+    mapTypeControlOptions: {
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID
+  };
 
-		map = new google.maps.Map(document.getElementById('map-canvas'),
-			mapOptions);
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
 
-		var styledMapOptions = {
-			name: 'Custom Style'
-		};
-		
-		marker =  new google.maps.Marker({
+  var styledMapOptions = {
+    name: 'Custom Style'
+  };
+
+  marker =  new google.maps.Marker({
 		draggable:true,
 		position: markerPosition,
     	animation: google.maps.Animation.DROP,
 		map:map
 		
 	})
-		var user_content = "<div class='map-window'>"+
-								"<div class='map-window-info'>"+
-									"<img src='images/gmap-image.jpg' alt='' width='80' height='80'/>"+
-									"<p>Company name</p>"+
-								"</div>"+
-								"<div class='map-description'>"+
-									"<p>"+
-									"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, nobis, deleniti reiciendis veritatis commodi repudiandae beatae "+
-									"</p>"+
-								"</div>"+	
-							"</div>";
+		
 		var infoWindow = new google.maps.InfoWindow({
-			content: user_content,
 			position: LatLng,
 			maxwidth: 320 
 		})
@@ -108,11 +97,12 @@ $(document).ready(function(){
 			infoWindow.open(map);
 			toggleBounce();
 		});
-		var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
 
-		map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-		
-	function toggleBounce() {
+  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+
+function toggleBounce() {
 
   		if (marker.getAnimation() != null) {
     		marker.setAnimation(null);
@@ -126,12 +116,10 @@ $(document).ready(function(){
 		map.setCenter(center);
 	});
 
-	}
 
-	$('#collapseMap').on('shown.bs.collapse', function() {
-  		initialize();
-	});
+}
 
+initialize();
 	//Gmap END
 
 
