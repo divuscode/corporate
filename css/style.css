@@ -512,6 +512,23 @@
 	position: relative;
 }
 
+/* gmap ============================================================*/
+
+.gmap-outer {
+	background-color: #424755;
+	height: 500px;
+}
+
+#map-canvas {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.gmnoprint span {
+	display: none;
+}
+
 
 /* Contact ============================================================*/
 
@@ -622,22 +639,6 @@ address {
 	display: inline-block;
 }
 
-/* gmap ============================================================*/
-
-.gmap-outer {
-	background-color: #424755;
-	height: 500px;
-}
-
-#map-canvas {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-}
-
-.gmnoprint span {
-	display: none;
-}
 
 
 /*sidebar*/
